@@ -1,0 +1,56 @@
+{
+  "name": "@ssgk4422/autosmoke",
+  "version": "1.0.0",
+  "description": "Zero-Code Automated Invariant & Regression Guard for Localhost dev servers.",
+  "type": "module",
+  "main": "build/src/index.js",
+  "bin": {
+    "autosmoke": "build/src/index.js",
+    "@ssgk4422/autosmoke": "build/src/index.js"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node build/src/index.js",
+    "test": "node --test build/tests/*.test.js",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "vibe-coding",
+    "testing",
+    "regression-testing",
+    "tdd",
+    "cursor",
+    "claude",
+    "developer-tools",
+    "cli",
+    "typescript",
+    "smoke-test",
+    "localhost"
+  ],
+  "author": "Prabhakar Pal (https://github.com/SECRET4422)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SECRET4422/autosmoke.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SECRET4422/autosmoke/issues"
+  },
+  "homepage": "https://github.com/SECRET4422/autosmoke#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  }
+}
