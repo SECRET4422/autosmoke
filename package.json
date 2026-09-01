@@ -1,6 +1,6 @@
 {
   "name": "@ssgk4422/autosmoke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-Code Automated Invariant & Regression Guard for Localhost dev servers.",
   "type": "module",
   "main": "build/src/index.js",
