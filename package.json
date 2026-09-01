@@ -17,7 +17,7 @@
     "build": "tsc",
     "watch": "tsc --watch",
     "start": "node build/src/index.js",
-    "test": "node --test build/tests/*.test.js",
+    "test": "node scripts/test.js",
     "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [
