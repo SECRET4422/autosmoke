@@ -139,3 +139,7 @@ AutoSmoke includes an open-standard [Agent Skill](skills/auto-smoke/SKILL.md) co
 ### 📄 License
 
 MIT © 2026 [Prabhakar Pal](https://github.com/SECRET4422). Free and open source.
+
+## Purpose
+
+This repository contains focused smoke-test experiments for validating developer workflows.
